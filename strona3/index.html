@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karta Gracza</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="player-card">
+    <!-- TODO: dodaj sekcje karty gracza -->
+    <header class="card-header">
+      <figure class="avatar">
+        <img src="https://img.artpal.com/878103/6-24-1-2-22-10-46m.jpg" alt="Avatar gracza" widht="80" height="80">
+        <figcaption>Awatar: Kondor</figcaption>
+      </figure>
+      <h1>karta gracza</h1>
+      <p> Nick: <span class="hightlight">Kondor</span></p>
+    </header>
+
+    <nav class="card-nav">
+      <a href="#bio">Bio</a>
+      <a href="#equipment">Ekwipunek</a>
+      <a href="#achivements">Osiągnięcia</a>
+    </nav>
+
+    <section class="card-section bio" id="bio">
+      <h2>bio</h2>
+      <p>Poziom: <strong>38</strong></p>
+      <p>Klasa <strong> Zaklinacz smoków</strong></p>
+      <p>Gildia:  <strong> Technoblade never die</strong></p>
+    </section>
+    <section class="card-section equipment" id="equipment">
+      <h2> Ekwipunek</h2>
+      <ul>
+        <li>Flet zaklinania</li>
+        <li>Zbroja z smoczych łusek</li>
+        <li>Miecz z smoczej stali</li>
+      </ul>
+    </section>
+    <section class="card-section achievements" id="achievements">
+      <h2>Osiągnięcia</h2>
+      <ul>
+        <li>Wychowaj smoka od jajka</li>
+        <li>Ukradnij jajko smoka elektryczności</li>
+        <li>Pogromca smoków 5 poziomu</li>
+      </ul>
+      <details>
+        <summary>Pokaż szcegóły osiągnięcia</summary>
+        <p>Wychowaj smoka od jajka-zdobyte 24.04.2023</p>
+        <p>Ukradnij jajko od smoka-22.04.2023</p>
+        <p>Pogromca soków 5 poziomu-26.04.2023</p>
+      </details>
+    </section>
+
+    <footer class="card-footer">
+      <p>Ostatnia aktywność: <time datatime="2026-10-16">16 października 2026</time></p>
+    </footer>
+  </main>
+</body>
+</html>
